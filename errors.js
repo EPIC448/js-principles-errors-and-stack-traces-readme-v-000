@@ -2,7 +2,7 @@
 
 const snackSelection = 'Pretzels';
 
-if (snackSelection = 'Pretzels') {
+if (snackSelection === 'Pretzels') {
   console.log("That'll be $1, please!");
 }
 
@@ -16,5 +16,11 @@ function first () {
 function second () {
   third();
 }
+// const third = 'Declaring a new variable.';  Never works because it is not a funciton.
+
+function third () {
+  console.log("Now I'am a function!");
+}
+
 
 first();
